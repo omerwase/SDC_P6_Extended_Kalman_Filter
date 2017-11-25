@@ -25,10 +25,10 @@ For details on installing dependencies see [Udacity's project repository](https:
 4. Create a build directory.
 5. Initiate CMake from build directory.
 6. Make the project.
-'''shell
-mkdir build
-cmake ..
-make
-./ExtendedKF
-'''
+```shell
+mkdir build  
+cmake ..  
+make  
+./ExtendedKF  
+```
 7. Launch Udacity's SDC simulator and start project 1 simulation.
