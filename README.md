@@ -18,16 +18,23 @@ For details on installing dependencies see [Udacity's project repository](https:
 
 ### Build Instructions:
 
-1. Downloaded Udacity's SDC term 2 simulator.
+1. Download Udacity's SDC term 2 simulator.
 2. Ensure the dependencies are isntalled.
 3. Clone this repository and navigate to its local directory.
 4. Create a build directory.
-5. Initiate CMake from build directory.
-6. Make the project.
 ```shell
 $ mkdir build  
-$ cmake ..  
+```
+5. Initiate CMake from build directory.
+```shell
+$ cmake ..   
+```
+6. Make the project.
+```shell
 $ make  
+```
+7. Run ExtendedKF
+```shell
 $ ./ExtendedKF  
 ```
-7. Launch Udacity's SDC simulator and start project 1 simulation.
+8. Launch Udacity's SDC simulator and start project 1 simulation.
